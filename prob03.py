@@ -8,7 +8,7 @@ def is_prime_v1(n):
     if n == 2:
         return True # 2 is a prime
 
-    max_divisor = math.floor(math.sqrt(n))
+    max_divisor = int(math.floor(math.sqrt(n)))
 
     #for d in range(2, n):
     for d in range(2, 1 + max_divisor):
