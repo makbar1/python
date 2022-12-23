@@ -9,9 +9,10 @@ def is_prime_v1(n):
         return False  # 1 is not prime
     if n == 2:
         return True # 2 is a prime
-
     if n > 2 and n % 2 ==0: # No need calculate even number greater than 2 they are not prime
         return False
+
+    """ Prime factors are symmetric around the square root of the number"""
 
     max_divisor = int(math.floor(math.sqrt(n)))
 
