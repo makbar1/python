@@ -26,7 +26,8 @@ t0=time.time()
 prime_fac=[]
 Largest_p=2
 #max = 600851475143
-max = 13195
+#max = 13195
+max=13195555
 
 for n in range(1, max + 1):
     #print(n, is_prime_v1(n))
@@ -34,11 +35,11 @@ for n in range(1, max + 1):
     if is_prime_v1(n) == True:
         if max % n == 0:
             prime_fac.append(n)
-            print(n)
             Largest_p=n
-        
+
+print("Prime factors of ",max, ":",prime_fac)        
 print("Largest Prime Factor of ",max, "is :", Largest_p)
-print(prime_fac)
 
 t1=time.time()
+print("")
 print("Time taken:",t1-t0)
