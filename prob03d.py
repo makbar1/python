@@ -27,7 +27,7 @@ prime_fac=[]
 Largest_p=2
 #max = 600851475143
 #max = 13195
-max=13195555
+max=1319555
 
 for n in range(1, max + 1):
     #print(n, is_prime_v1(n))

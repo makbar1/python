@@ -23,4 +23,7 @@ for i in range(100, 1000):
                 maxj = j
 print(maxi, maxj, max)
 
+x = str(10 * 12)
+print(x,x[::-1])
+
 
