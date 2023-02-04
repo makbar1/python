@@ -9,4 +9,4 @@ import os
 import sys
 print(sys.version)
 print(os.path.dirname(sys.executable))
-x = os.system('dir')
+# x = os.system('dir')
