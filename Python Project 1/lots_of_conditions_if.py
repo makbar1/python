@@ -1,5 +1,5 @@
 a= 11
-b = 3
+b = 5
 c =50
 
 conditions = [
@@ -8,5 +8,9 @@ conditions = [
     c > 30
 ]
 
+# If all conditions are met i.e AND for all
 if all(conditions):
     print('Wow')
+# If any of the conditions are met i.e OR
+if any(conditions):
+    print("Super Wow")
