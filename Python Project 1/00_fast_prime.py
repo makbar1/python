@@ -1,3 +1,8 @@
+import time
+# time at the start of program
+start = time.time()
+
+
 def is_prime(n):
     """
     Assumes that n is a positive natural number
@@ -20,7 +25,12 @@ def is_prime(n):
     return True
 
 primes=[1,2]
-for x in range(3, 100000, 2):
+for x in range(3, 500000, 2):
     if is_prime(x) == True:
         primes.append(x)
 print(primes)
+end = time.time()
+
+# total time taken
+print(end - start)
+
