@@ -20,7 +20,7 @@ def is_prime(n):
     return True
 
 primes=[1,2]
-for x in range(3, 100, 2):
+for x in range(3, 100000, 2):
     if is_prime(x) == True:
         primes.append(x)
 print(primes)
