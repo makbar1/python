@@ -20,8 +20,11 @@ def is_prime_v3(n):
 # ==== Test Function ====
 
 t0 = time.time()
-for n in range(1, 100):
-	print(n, is_prime_v3(n))
-	#is_prime_v3(n)
+maxprime = 1
+for n in range(1, 10000000):
+        #print(n, is_prime_v3(n))
+    if is_prime_v3(n) == True:
+        maxprime=n
 t1 = time.time()
 print("Time Required = ", t1 - t0)
+print(maxprime)
