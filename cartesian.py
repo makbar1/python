@@ -33,5 +33,5 @@ coordinates = [(8, 10), (4, 18), (2, 6), (16, 2), (8, 4), (9, 10), (14, 10), (18
 #print("Unique x-coordinate pairs:")
 #for pair in unique_coordinates:
 for x, y in coordinates:
-    #print((x + y),end="")
+    print((x + y),end="")
     #print(chr(x^y), end="")
